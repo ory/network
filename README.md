@@ -9,4 +9,4 @@ This repository contains
 - [have discussions, ask questions and more](https://github.com/ory/cloud/discussions)
 - the documentation GitHub repository is located at [github.com/ory/cloud](https://github.com/ory/cloud)
 
-Interested? To get on the waiting list please reach out to [hi@ory.sh](mailto:hi@ory.sh)!
+Interested? To get on the waiting list please reach out to [sales@ory.sh](mailto:sales@ory.sh)!
