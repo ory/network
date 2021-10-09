@@ -1,5 +1,8 @@
-# Ory
+# [Ory](https://www.ory.sh/)
 
+![](https://image.pitchbook.com/jgEZcWLlDVYQ9B7dppEkEqpBbWR1626093059565_200x200)
+
+<h3>
 Ory is the next-gen auth* SaaS - global, data-driven, affordable, and backed by popular and proven open source.
 
 This repository contains
@@ -10,3 +13,4 @@ This repository contains
 - the documentation GitHub repository is located at [github.com/ory/docs](https://github.com/ory/docs)
 
 Interested? To get on the waiting list please reach out to [sales@ory.sh](mailto:sales@ory.sh)!
+</h3>
