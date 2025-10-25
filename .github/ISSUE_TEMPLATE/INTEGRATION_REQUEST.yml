@@ -1,0 +1,83 @@
+description:
+  "Use this template to request an integration with an external service or
+  platform. Please provide as much detail as possible to help us understand your
+  request."
+labels:
+  - integration request
+name: "Integration Request"
+body:
+  - attributes:
+      value: |
+        Thank you for suggesting an integration for this project!
+
+        Please provide detailed information about the integration you are
+        requesting to help us evaluate and prioritize it effectively.
+    type: markdown
+  - attributes:
+      label: "Preflight checklist"
+      options:
+        - label: "I could not find a solution in the existing issues, docs, nor
+            discussions."
+          required: true
+        - label: "I agree to follow this project's [Code of
+            Conduct](https://github.com/ory/network/blob/master/CODE_OF_CONDUCT.md)."
+          required: true
+        - label: "I have read and am following this repository's [Contribution
+            Guidelines](https://github.com/ory/network/blob/master/CONTRIBUTING.md)."
+          required: true
+        - label: "I have joined the [Ory Community Slack](https://slack.ory.sh)."
+        - label: "I am signed up to the [Ory Security Patch
+            Newsletter](https://www.ory.sh/l/sign-up-newsletter)."
+    id: checklist
+    type: checkboxes
+  - attributes:
+      description:
+        "What is the name of the service or platform you would like to see
+        integrated?"
+      label: "Integration Name"
+      placeholder: "e.g., ServiceXYZ, PlatformABC"
+    id: integration-name
+    type: input
+    validations:
+      required: true
+  - attributes:
+      description:
+        "Please provide a brief overview of the service or platform and its
+        primary features."
+      label: "Integration Overview"
+      placeholder: "A brief description of the service or platform."
+    id: integration-overview
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      description:
+        "How would this integration benefit users of our project? Please describe
+        specific use cases or scenarios."
+      label: "Use Cases and Benefits"
+      placeholder: "A clear explanation of how this integration would be useful."
+    id: use-cases
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      description:
+        "Are there any existing integrations with similar services or platforms?
+        If so, please provide details."
+      label: "Existing Integrations"
+      placeholder: "Information about any similar existing integrations."
+    id: existing-integrations
+    type: textarea
+  - attributes:
+      description:
+        "Do you have any technical details, API documentation, or other resources
+        that would help us understand how to implement this integration?"
+      label: "Technical Details and Resources"
+      placeholder: "Links to API docs, technical specifications, etc."
+    id: technical-details
+    type: textarea
+  - attributes:
+      description: "Add any other context or information about the integration request here."
+      label: Additional Context
+    id: additional-context
+    type: textarea
