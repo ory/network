@@ -13,6 +13,7 @@ ALLOWED_LICENSES=(
 	'Apache-2.0'
 	'(Apache-2.0 OR MPL-1.1)'
 	'Apache-2.0 AND MIT'
+	'(Apache-2.0 AND MIT)'
 	'Apache License, Version 2.0'
 	'Apache*'
 	'Artistic-2.0'
